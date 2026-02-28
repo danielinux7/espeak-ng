@@ -1,0 +1,351 @@
+// Минимальные фонемы для теста
+phoneme a
+ipa a
+vwl starttype #a endtype #a
+length 150
+IF thisPh(isNotStressed) THEN
+IF nextVowel(isStressed) THEN
+FMT(vowel/a#_4)
+ELSE
+FMT(vowel/V_3)
+ENDIF
+ENDIF
+FMT(vowel/a)
+endphoneme
+
+
+
+
+phoneme b
+ipa b
+vcd vel stp
+length 120
+FMT(b/b_)
+endphoneme
+
+phoneme v
+ipa v
+vcd frc
+length 120
+FMT(klatt/v_)
+endphoneme
+
+phoneme g
+ipa g
+vcd vel stp
+length 120
+FMT(g/g_)
+endphoneme
+
+phoneme gj
+ipa gʲ
+vcd  vel stp  pzd               // palatalized
+length 130
+FMT(g/g_) addWav(vowel/i, 5)
+endphoneme
+
+phoneme gw
+ipa gʷ
+vcd  vel stp  pzd               // palatalized
+length 130
+FMT(g/g_) addWav(vowel/u, 5)
+endphoneme
+
+
+phoneme R
+ipa ʁ
+vcd  uvl trl liquid rhotic trl
+length 110
+FMT(vwl_fr/r)
+endphoneme
+
+phoneme Rj
+ipa ʁʲ
+vcd   trl frc pzd
+length 130
+FMT(vwl_fr/rj)
+endphoneme
+
+phoneme Rw
+ipa ʁʷ
+vcd  vel stp  pzd
+endphoneme
+
+phoneme d
+ipa d
+vcd  vel stp  pzd
+endphoneme
+
+phoneme dw
+ipa dʷ
+vcd  vel stp  pzd
+endphoneme
+
+phoneme e
+ipa e
+vcd  vel stp  pzd
+endphoneme
+
+phoneme Z
+ipa ʐ
+vcd  vel stp  pzd
+endphoneme
+
+phoneme Zj
+ipa ʒ
+vcd  vel stp  pzd
+endphoneme
+
+phoneme Zw
+ipa ʒʷ
+vcd  vel stp  pzd
+endphoneme
+
+phoneme z
+ipa z
+vcd  vel stp  pzd
+endphoneme
+
+
+phoneme DZ
+ipa dz
+vcd  vel stp  pzd
+endphoneme
+
+phoneme DZw
+ipa dʑʷ
+vcd  vel stp  pzd
+endphoneme
+
+
+phoneme i
+ipa i
+vcd  vel stp  pzd
+endphoneme
+
+// Блок фонем К(абрупптив)
+phoneme k'
+ipa k
+vcd  vel stp  pzd
+endphoneme
+
+phoneme k'j
+ipa kʲ
+vcd  vel stp  pzd
+endphoneme
+
+phoneme k'w
+ipa kʷ
+vcd  vel stp  pzd
+endphoneme
+
+//Блок Қ
+phoneme k
+ipa kʰ
+vcd  vel stp  pzd
+endphoneme
+
+phoneme kj
+ipa kʲʰ
+vcd  vel stp  pzd
+endphoneme
+
+phoneme kw
+ipa kʷʰ
+vcd  vel stp  pzd
+endphoneme
+
+//Блок  Ҟ
+phoneme q
+ipa q
+vcd  vel stp  pzd
+endphoneme
+
+phoneme qj
+ipa qʲ
+vcd  vel stp  pzd
+endphoneme
+
+phoneme qw
+ipa qʷ
+vcd  vel stp  pzd
+endphoneme
+
+phoneme l
+ipa l
+vcd  vel stp  pzd
+endphoneme
+
+phoneme m
+ipa m
+vcd  vel stp  pzd
+endphoneme
+
+phoneme n
+ipa n
+vcd  vel stp  pzd
+endphoneme
+
+phoneme o
+ipa o
+vwl
+FMT(vowel/o)
+endphoneme
+
+phoneme p'
+ipa p
+vcd  vel stp  pzd
+endphoneme
+
+phoneme p
+ipa pʰ
+vcd  vel stp  pzd
+endphoneme
+
+phoneme r
+ipa r
+vcd  alv trl flp
+length 110
+FMT(r/r)
+endphoneme
+
+phoneme s
+ipa s
+vcd  vel stp  pzd
+endphoneme
+
+phoneme t'
+ipa t
+vcd  vel stp  pzd
+endphoneme
+
+phoneme t'w
+ipa tʷ
+vcd  vel stp  pzd
+endphoneme
+
+
+phoneme t
+ipa tʰ
+vcd  vel stp  pzd
+endphoneme
+
+phoneme tw
+ipa tʷʰ
+vcd  vel stp  pzd
+endphoneme
+
+phoneme u
+ipa u
+vcd  vel stp  pzd
+endphoneme
+
+phoneme f
+ipa f
+vcd  vel stp  pzd
+endphoneme
+
+phoneme x
+ipa χ
+vcd  vel stp  pzd
+endphoneme
+
+phoneme xj
+ipa χʲ
+vcd  vel stp  pzd
+endphoneme
+
+phoneme xw
+ipa χʷ
+vcd  vel stp  pzd
+endphoneme
+
+phoneme h
+ipa ħ
+vcd  vel stp  pzd
+endphoneme
+
+phoneme hw
+ipa ħʷ
+vcd  vel stp  pzd
+endphoneme
+
+phoneme c
+ipa tsʰ
+vls afr dnt
+length 100
+WAV(ustop/ts_.wav)
+endphoneme
+
+phoneme cw
+ipa tɕʷʰ
+vcd  vel stp  pzd
+endphoneme
+
+phoneme c'
+ipa ts
+vcd  vel stp  pzd
+endphoneme
+
+phoneme c'w
+ipa tɕʷ
+vcd  vel stp  pzd
+endphoneme
+
+phoneme C
+ipa tʃʰ
+vcd  vel stp  pzd
+endphoneme
+
+phoneme C'
+ipa tʃ
+vcd  vel stp  pzd
+endphoneme
+
+phoneme E
+ipa ʈʂʰ
+vcd  vel stp  pzd
+endphoneme
+
+phoneme E'
+ipa ʈʂ
+vcd  vel stp  pzd
+endphoneme
+
+phoneme S
+ipa ʂ
+vcd  vel stp  pzd
+endphoneme
+
+phoneme Sj
+ipa ʃ
+vcd  vel stp  pzd
+endphoneme
+
+phoneme Sw
+ipa ʃʷ
+vcd  vel stp  pzd
+endphoneme
+
+phoneme @
+ipa ə
+vwl
+length 85
+FMT(vowel/@)
+endphoneme
+
+phoneme Uw
+ipa ɥ
+vcd  vel stp  pzd
+endphoneme
+
+phoneme J
+ipa ɖʐ
+vcd  vel stp  pzd
+endphoneme
+
+phoneme Jj
+ipa ʤ
+vcd  vel stp  pzd
+endphoneme
+// Добавь позже: gw, kj, xj и т.д.

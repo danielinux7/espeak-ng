@@ -1,0 +1,282 @@
+language ab
+name abkhazian
+
+.group а
+а       a
+
+.group б
+б       b
+
+
+.group в
+в           v
+
+.group г
+г        g
+г (_    g
+г   g @
+
+
+.group гь
+//гьа     gj; а
+гь     gj @
+гь     gj
+
+.group гә
+гә     gw @
+гә     gw
+
+.group ӷ
+ӷ       R @
+ӷ       R
+
+.group ҕ
+ҕ       R @
+ҕ       R
+
+
+.group ӷь
+ӷь      Rj @
+ӷь       Rj
+
+.group ҕь
+ҕь      Rj @
+ҕь      Rj
+
+.group ӷә
+ӷә      Rw @
+ӷә      Rw
+
+.group ҕә
+ҕә      Rw @
+ҕә      Rw
+
+.group д
+д       d @
+д       d
+
+.group дә
+дә       dw @
+дә       dw
+
+.group е
+е       e @
+е       e
+
+.group ж
+ж       Z @
+ж       Z
+
+.group жь
+жә     Zj @
+жә     Zj
+
+.group жә
+жә     Zw @
+жә     Zw
+
+.group з
+з        z @
+з        z
+
+.group ӡ
+ӡ        DZ @
+ӡ        DZ
+
+.group ӡә
+ӡә        DZw @
+ӡә        DZw
+
+.group и
+и        i @
+и        i
+
+// Блок  К
+.group к
+к        k' @
+к        k'
+
+.group кь
+кь      k'j @
+кь      k'j
+
+.group кә
+кә      k'w @
+кә      k'w
+
+// Блок  Қ
+.group қ
+қ        k @
+қ        k
+
+// Блок  Қь
+.group қь
+қь      kj @
+қь      kj
+
+// Блок  Қә
+.group қә
+қә      kw @
+қә      kw
+
+// Блок  Ҟ
+.group ҟ
+ҟ        q @
+ҟ        q
+
+//  Блок Ҟь
+.group ҟь
+ҟь      qj @
+ҟь      qj
+
+// Блок Ҟә
+.group ҟә
+ҟә      qw @
+ҟә      qw
+
+.group л
+л      l @
+л      l
+
+.group м
+м      m @
+м      m
+
+.group н
+н       n @
+н       n
+
+.group о
+о       o
+
+.group п
+п        p' @
+п        p'
+
+.group ԥ
+ԥ        p @
+ԥ        p
+
+.group ҧ
+ҧ        p @
+ҧ        p
+
+.group р
+р        r @
+р        r
+
+.group с
+с        s @
+с        s
+
+.group т
+т        t' @
+т        t'
+
+.group тә
+тә        t'w @
+тә        t'w
+
+.group ҭ
+ҭ        t @
+ҭ        t
+
+.group ҭә
+ҭә        tw @
+ҭә        tw
+
+.group у
+у        u @
+у        u
+
+.group ф
+ф        f @
+ф        f
+
+.group х
+х        x @
+х        x
+
+.group хj
+хь        xj @
+хь        xj
+
+.group хә
+хә        xw @
+хә        xw
+
+.group ҳ
+ҳ        h @
+ҳ        h
+
+.group ҳә
+ҳә        hw @
+ҳә        hw
+
+.group ц
+ц        c @
+ц        c
+
+.group цә
+цә      cw @
+цә      cw
+
+.group ҵ
+ҵ        c' @
+ҵ        c'
+
+.group ҵә
+ҵә     c'w @
+ҵә     c'w
+
+.group ч
+ч        C @
+ч        C
+
+.group ҷ
+ҷ        C' @
+ҷ        C'
+
+.group ҽ
+ҽ        E @
+ҽ        E
+
+.group ҿ
+ҿ        E' @
+ҿ        E'
+
+
+.group ш
+ш        S @
+ш        S
+
+.group шь
+шь        S' @
+шь        S'
+
+.group шә
+шә        Sw @
+шә        Sw
+
+.group ы
+ы       @
+
+.group ҩ
+ҩ       Uw @
+ҩ       Uw
+
+.group џ
+џ        J @
+џ        J
+
+.group џь
+џь     Jj @
+џь     Jj
+
+
+
+
+
+
+
+
